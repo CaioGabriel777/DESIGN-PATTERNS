@@ -18,11 +18,11 @@ Cada padrão de projeto possui seu próprio projeto/diretório contendo:
 ## 📚 Padrões Estudados
 
 ### Padrões Criacionais
-- [x] **[Factory Method](./Factory-Method/)** - Define uma interface para criar objetos, delegando às subclasses a decisão de qual classe instanciar.
-- [x] **[Abstract Factory](./Abstract-Factory/)** - Fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
-- [ ] Builder
-- [ ] Prototype
-- [ ] Singleton
+- [x] **[Factory Method](CREATIONAL-PATTERNS/Factory-Method/)** - Define uma interface para criar objetos, delegando às subclasses a decisão de qual classe instanciar.
+- [x] **[Abstract Factory](CREATIONAL-PATTERNS/Abstract-Factory/)** - Fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
+- [x] **[Builder](CREATIONAL-PATTERNS/Builder/)** - Permite a construção de objetos complexos passo a passo, separando a construção de sua representação.
+- [x] **[Prototype](CREATIONAL-PATTERNS/Prototype/)** - Permite copiar objetos existentes sem fazer com que seu código fique dependente de suas classes.
+- [x] **[Singleton](CREATIONAL-PATTERNS/Singleton/)** - Garante que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
 
 *(A lista será atualizada conforme o avanço dos estudos por outros padrões Estruturais e Comportamentais).*
 
