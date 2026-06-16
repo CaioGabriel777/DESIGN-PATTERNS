@@ -26,7 +26,7 @@ Cada padrão de projeto possui seu próprio projeto/diretório contendo:
 
 ### Padrões Estruturais
 - [x] **[Adapter](STRUCTURAL-PATTERNS/Adapter/)** - Permite a colaboração de objetos com interfaces incompatíveis.
-- [ ] **[Bridge](STRUCTURAL-PATTERNS/Bridge/)**
+- [x] **[Bridge](STRUCTURAL-PATTERNS/Bridge/)** - Permite dividir uma classe grande ou um conjunto de classes em duas hierarquias separadas (abstração e implementação) que podem variar de forma independente.
 - [ ] **[Composite](STRUCTURAL-PATTERNS/Composite/)**
 - [ ] **[Decorator](STRUCTURAL-PATTERNS/Decorator/)**
 - [ ] **[Facade](STRUCTURAL-PATTERNS/Facade/)**
