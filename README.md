@@ -24,7 +24,16 @@ Cada padrão de projeto possui seu próprio projeto/diretório contendo:
 - [x] **[Prototype](CREATIONAL-PATTERNS/Prototype/)** - Permite copiar objetos existentes sem fazer com que seu código fique dependente de suas classes.
 - [x] **[Singleton](CREATIONAL-PATTERNS/Singleton/)** - Garante que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
 
-*(A lista será atualizada conforme o avanço dos estudos por outros padrões Estruturais e Comportamentais).*
+### Padrões Estruturais
+- [x] **[Adapter](STRUCTURAL-PATTERNS/Adapter/)** - Permite a colaboração de objetos com interfaces incompatíveis.
+- [ ] **[Bridge](STRUCTURAL-PATTERNS/Bridge/)**
+- [ ] **[Composite](STRUCTURAL-PATTERNS/Composite/)**
+- [ ] **[Decorator](STRUCTURAL-PATTERNS/Decorator/)**
+- [ ] **[Facade](STRUCTURAL-PATTERNS/Facade/)**
+- [ ] **[Flyweight](STRUCTURAL-PATTERNS/Flyweight/)**
+- [ ] **[Proxy](STRUCTURAL-PATTERNS/Proxy/)**
+
+*(A lista será atualizada conforme o avanço dos estudos por outros padrões Comportamentais).*
 
 ## 💡 Boas Práticas Adotadas
 Além do conceito puro de cada padrão, este repositório aplica e respeita:
