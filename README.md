@@ -28,7 +28,7 @@ Cada padrão de projeto possui seu próprio projeto/diretório contendo:
 - [x] **[Adapter](STRUCTURAL-PATTERNS/Adapter/)** - Permite a colaboração de objetos com interfaces incompatíveis.
 - [x] **[Bridge](STRUCTURAL-PATTERNS/Bridge/)** - Permite dividir uma classe grande ou um conjunto de classes em duas hierarquias separadas (abstração e implementação) que podem variar de forma independente.
 - [x] **[Composite](STRUCTURAL-PATTERNS/Composite/)** - Permite compor objetos em estruturas de árvores e trabalhar com essas estruturas como se fossem objetos individuais.
-- [ ] **[Decorator](STRUCTURAL-PATTERNS/Decorator/)**
+- [x] **[Decorator](STRUCTURAL-PATTERNS/Decorator/)** - Permite acoplar novos comportamentos e responsabilidades a um objeto dinamicamente (em tempo de execução), utilizando "wrappers" (envoltórios).
 - [ ] **[Facade](STRUCTURAL-PATTERNS/Facade/)**
 - [ ] **[Flyweight](STRUCTURAL-PATTERNS/Flyweight/)**
 - [ ] **[Proxy](STRUCTURAL-PATTERNS/Proxy/)**
