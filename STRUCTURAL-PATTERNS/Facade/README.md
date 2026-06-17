@@ -1,16 +1,20 @@
-# Getting Started
+# Facade
 
-### Reference Documentation
-For further reference, please consider the following sections:
+## O que é o Facade?
+O **Facade** (Fachada) é um padrão de projeto estrutural que fornece uma interface simplificada para um subsistema complexo, uma biblioteca ou um framework que contém dezenas de classes.
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/4.1.0/maven-plugin)
-* [Create an OCI image](https://docs.spring.io/spring-boot/4.1.0/maven-plugin/build-image.html)
+Em vez de o seu código cliente ter que instanciar várias classes diferentes, entender a ordem de execução de métodos e gerenciar as dependências entre eles, você cria uma "Fachada" — uma única classe que centraliza e orquestra todas essas operações, oferecendo métodos fáceis e diretos (ex: `cadastrarNovoFuncionario()`).
 
-### Maven Parent overrides
+## Quando usar?
+* **Orquestração de Sistemas Complexos:** Quando uma única ação do sistema exige a comunicação coordenada com várias partes diferentes (ex: Num Onboarding, você precisa criar e-mail, liberar VPN, criar usuário no banco).
+* **Isolamento de Bibliotecas de Terceiros:** Para evitar que o código da sua aplicação fique espalhado e fortemente acoplado a classes de uma biblioteca externa. Se a biblioteca for trocada no futuro, você só precisa alterar o código dentro da Facade.
+* **Criação de APIs amigáveis:** Quando você constrói um módulo complexo e deseja fornecer um "ponto de entrada" fácil para outros times usarem o seu módulo sem precisarem ler a documentação de todas as classes internas.
 
-Due to Maven's design, elements are inherited from the parent POM to the project POM.
-While most of the inheritance is fine, it also inherits unwanted elements like `<license>` and `<developers>` from the parent.
-To prevent this, the project POM contains empty overrides for these elements.
-If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
+## Vantagens
+* **Redução de Acoplamento:** O código cliente não conhece as classes que fazem o trabalho pesado. Se o subsistema interno for refatorado, o cliente não quebra.
+* **Extrema Simplicidade:** Transforma 50 linhas de inicialização e chamadas de métodos complexos em uma única linha no código cliente.
+* **Princípio da Menor Sabedoria (Law of Demeter):** O cliente só interage com seu contato direto (a Fachada), e não com as engrenagens internas.
 
+## Problemas e Desvantagens
+* **O risco do Objeto Deus (God Object):** O maior perigo do Facade é que ele continue crescendo até se tornar uma classe monolítica gigante que conhece e interage com todas as classes da aplicação inteira, ferindo o Princípio da Responsabilidade Única (SRP).
+* **Perda de poder/customização:** Como a fachada oferece uma via rápida e padronizada, o código cliente perde o acesso aos recursos mais avançados ou "ajustes finos" que o subsistema poderia oferecer se fosse acessado diretamente.
