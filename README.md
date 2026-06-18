@@ -31,7 +31,7 @@ Cada padrão de projeto possui seu próprio projeto/diretório contendo:
 - [x] **[Decorator](STRUCTURAL-PATTERNS/Decorator/)** - Permite acoplar novos comportamentos e responsabilidades a um objeto dinamicamente (em tempo de execução), utilizando "wrappers" (envoltórios).
 - [x] **[Facade](STRUCTURAL-PATTERNS/Facade/)** - Fornece uma interface simplificada de alto nível para um subsistema complexo contendo muitas classes.
 - [x] **[Flyweight](STRUCTURAL-PATTERNS/Flyweight/)** - Permite instanciar uma enorme quantidade de objetos na memória RAM compartilhando partes comuns de estado entre eles.
-- [ ] **[Proxy](STRUCTURAL-PATTERNS/Proxy/)**
+- [x] **[Proxy](STRUCTURAL-PATTERNS/Proxy/)** - Fornece um substituto ou representante para controlar o acesso a outro objeto (lazy loading, cache, segurança).
 
 *(A lista será atualizada conforme o avanço dos estudos por outros padrões Comportamentais).*
 
