@@ -30,7 +30,7 @@ Cada padrão de projeto possui seu próprio projeto/diretório contendo:
 - [x] **[Composite](STRUCTURAL-PATTERNS/Composite/)** - Permite compor objetos em estruturas de árvores e trabalhar com essas estruturas como se fossem objetos individuais.
 - [x] **[Decorator](STRUCTURAL-PATTERNS/Decorator/)** - Permite acoplar novos comportamentos e responsabilidades a um objeto dinamicamente (em tempo de execução), utilizando "wrappers" (envoltórios).
 - [x] **[Facade](STRUCTURAL-PATTERNS/Facade/)** - Fornece uma interface simplificada de alto nível para um subsistema complexo contendo muitas classes.
-- [ ] **[Flyweight](STRUCTURAL-PATTERNS/Flyweight/)**
+- [x] **[Flyweight](STRUCTURAL-PATTERNS/Flyweight/)** - Permite instanciar uma enorme quantidade de objetos na memória RAM compartilhando partes comuns de estado entre eles.
 - [ ] **[Proxy](STRUCTURAL-PATTERNS/Proxy/)**
 
 *(A lista será atualizada conforme o avanço dos estudos por outros padrões Comportamentais).*
